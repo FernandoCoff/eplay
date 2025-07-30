@@ -1,8 +1,13 @@
+import Header from './components/Header'
+import { Container } from './styles/GlobalStyle'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Olá</h1>
-    </div>
+    <>
+      <Container>
+        <Header />
+      </Container>
+    </>
   )
 }
 
