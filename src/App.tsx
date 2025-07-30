@@ -1,5 +1,6 @@
-import Header from './components/Header'
 import { Container } from './styles/GlobalStyle'
+import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Container>
         <Header />
       </Container>
+      <Hero />
     </>
   )
 }
